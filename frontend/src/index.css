@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #F9FAFB;
+}
+
+/* animação */
+
+@keyframes slidePurple {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.slide-purple {
+  animation: slidePurple 1.2s ease forwards;
+}

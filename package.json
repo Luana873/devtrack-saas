@@ -1,0 +1,14 @@
+{
+  "dependencies": {
+    "cors": "^2.8.6",
+    "dotenv": "^17.3.1",
+    "express": "^5.2.1",
+    "mongoose": "^9.2.4",
+    "node-cron": "^4.2.1",
+    "nodemailer": "^8.0.3"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.19",
+    "@types/nodemailer": "^7.0.11"
+  }
+}
